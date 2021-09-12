@@ -1,3 +1,5 @@
+// [Getting Started with Arduino book]: Exercise 4.1
+
 // Blinking LED
 const int LED = 13; // LED connected to digital pin 13
 

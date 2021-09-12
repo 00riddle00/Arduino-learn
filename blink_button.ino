@@ -1,3 +1,5 @@
+// [Getting Started with Arduino book]: Exercise 4.2
+//
 // Turn on LED while the button is pressed
 
 const int LED = 13; // the pin for the LED

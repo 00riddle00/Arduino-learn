@@ -1,3 +1,5 @@
+// [Getting Started with Arduino book]: Exercise 4.5
+
 const int LED = 13;   // the pin for the LED
 const int BUTTON = 7; // the input pin where the pushbutton is connected
 int val = 0;          // val will be used to store the state of the input pin
