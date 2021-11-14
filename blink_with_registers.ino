@@ -6,7 +6,8 @@ void setup() {
 }
 
 void loop() {
-
+  // output either 5V or 0V on led_pin;
   PORTB ^= (1 << led_pin);
+
   delay(500);
 }
