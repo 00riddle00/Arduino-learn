@@ -34,6 +34,7 @@ void loop() {
 // INT0_vect is the identifier meaning "External Interrupt Request 0"
 // This vector number is 2
 ISR(INT0_vect) {
-  PORTD ^= (1 << led_pin);
+  PORTD ^= (1 << led_pin); // flip between 0V and 5V on led_pin
+                           // PORTD = xx{0,1}xx1xx
 }
 

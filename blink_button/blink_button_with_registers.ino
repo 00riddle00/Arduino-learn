@@ -12,7 +12,9 @@ void loop() {
 
   if (btn == LOW) {
     PORTD |= (1 << led_pin); // output 5V on pin5
+                             // PORTD = 00100100
   } else {
     PORTD &= ~(1 << led_pin); // output 0V on pin5
+                              // PORTD = 00000100
   }
 }

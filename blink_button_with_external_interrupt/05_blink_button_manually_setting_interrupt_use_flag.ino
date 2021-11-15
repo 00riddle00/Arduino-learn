@@ -33,7 +33,8 @@ void setup() {
 
 void loop() {
   if (flag) {
-  	PORTD ^= (1 << led_pin);
+    PORTD ^= (1 << led_pin); // flip between 0V and 5V on led_pin
+                             // PORTD = xx{0,1}xx1xx
     flag = 0;
   }
   
