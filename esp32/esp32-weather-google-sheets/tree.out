@@ -1,0 +1,45 @@
+.
+├── circuit
+│   ├── ESP32_weather_station_bb.png
+│   ├── ESP32_weather_station.fzz
+│   └── ESP32_weather_station_schem.png
+├── esp32-20210902-v1.17.bin
+├── google_key.json
+├── key.json
+├── LICENSE
+├── main.conf
+├── out
+├── README.md
+├── scripts
+│   ├── erase.sh
+│   ├── extract_key.py
+│   ├── extract_key.sh
+│   ├── flash.sh
+│   ├── minicom.sh
+│   ├── upload.sh
+│   └── verity.sh
+└── src
+    ├── config.py
+    ├── google
+    │   ├── auth.py
+    │   ├── __init__.py
+    │   └── sheet.py
+    ├── http
+    │   ├── __init__.py
+    │   └── server.py
+    ├── main.py
+    ├── ntp.py
+    ├── rsa
+    │   ├── common.py
+    │   ├── _compat.py
+    │   ├── core.py
+    │   ├── __init__.py
+    │   ├── key.py
+    │   ├── machine_size.py
+    │   ├── pkcs1.py
+    │   └── transform.py
+    ├── settings.py
+    ├── util.py
+    └── weather.py
+
+6 directories, 36 files

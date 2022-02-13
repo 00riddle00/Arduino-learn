@@ -1,0 +1,7 @@
+export SSID="ssid"
+export WIFI_PASSWORD="wifi-passowrd"
+export ACCESS_POINT_SSID="esp32-weather-google-sheets"
+export ACCESS_POINT_PASSWORD="password-for-the-access-point"
+export GOOGLE_SERVICE_ACCOUNT_EMAIL="google-service-account-email"
+export GOOGLE_SHEET_ID="google-sheet-id"
+
